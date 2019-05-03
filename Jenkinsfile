@@ -9,5 +9,6 @@ node {
     }
     stage("Post-Build") {
         echo 'This is the postbuild stage.'
+        echo 'All done!'
     }
 }
